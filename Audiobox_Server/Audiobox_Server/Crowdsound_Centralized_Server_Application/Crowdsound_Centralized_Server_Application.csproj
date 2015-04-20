@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73CE5FC7-0DFC-42C5-A685-84D6D21922DF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crowdsound_Centralized_Server_Application</RootNamespace>
+    <AssemblyName>Crowdsound_Centralized_Server_Application</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core.cs" />
+    <Compile Include="Modules\ClientSocketInterface\ClientSocketInterface.cs" />
+    <Compile Include="Modules\ClientSocketInterface\ClientConnection.cs" />
+    <Compile Include="Modules\ClientSocketInterface\DeviceSocket.cs" />
+    <Compile Include="Modules\DeviceManagement\DeviceStatus.cs" />
+    <Compile Include="Modules\DeviceManagement\MobileDevice.cs" />
+    <Compile Include="Modules\Reporting\ConsoleHelper.cs" />
+    <Compile Include="Modules\ServerCommandInterface\Command.cs" />
+    <Compile Include="Modules\ServerCommandInterface\CommandExecutor.cs" />
+    <Compile Include="Modules\ServerCommandInterface\CommandParser.cs" />
+    <Compile Include="Modules\ServerCommandInterface\ICommand.cs" />
+    <Compile Include="Modules\UserInputInterpreter.cs" />
+    <Compile Include="Modules\DeviceManagement\DeviceInstance.cs" />
+    <Compile Include="Modules\DeviceManagement\MobileDeviceManagement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Support\About.cs" />
+    <Compile Include="Support\Helper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\ServerCommandInterface\Commands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeneralSupportLibrary\GeneralSupportLibrary.csproj">
+      <Project>{596e12c8-e87a-4d61-838d-49653b8ae070}</Project>
+      <Name>GeneralSupportLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

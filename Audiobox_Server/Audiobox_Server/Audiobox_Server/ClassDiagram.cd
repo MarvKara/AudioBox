@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Audiobox_Server.Forms.AboutForm" Collapsed="true">
+    <Position X="6.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAACAAAAiAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Forms\AboutForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Forms.MainForm" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQqAJghAQWUSgBCiACCCCRBDCCAIkYYABAAioIAIgAI=</HashCode>
+      <FileName>Forms\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Forms.PlaylistDetailForm" Collapsed="true">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIQCAAAAyAAECAAAACgEAABAAAAAAAAAAADAA=</HashCode>
+      <FileName>Forms\PlaylistDetailForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Forms.SettingsForm" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Forms.SettingsForm.SettingsChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Forms\SettingsForm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAEAAAKAAEACAIAAABBAARBAAAAAAAA=</HashCode>
+      <FileName>Forms\SettingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.General.Actions">
+    <Position X="40" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QQAAEAAAAAAAABAAEAQAABAAAAAAAACAAAEAQABAkBA=</HashCode>
+      <FileName>General\Actions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.General.ErrorHandler" Collapsed="true">
+    <Position X="28.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>General\ErrorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.General.GeneralObjects">
+    <Position X="36" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>General\GeneralObjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.AudioboxConsole.ConsoleCommand">
+    <Position X="34.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAIgAAAAAAAAAAAAQgBABAAAAACAAAIEAAABAAAA=</HashCode>
+      <FileName>Modules\AudioboxConsole\ConsoleCommand\ConsoleCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.AudioboxConsole.ConsoleCommandExecutor">
+    <Position X="38.5" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\AudioboxConsole\ConsoleCommand\ConsoleCommandExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.AudioboxConsole.ConsoleCommandWords">
+    <Position X="36.25" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAIABQAAAAAAAAAAAAAAAABAAAAACAAIAAA=</HashCode>
+      <FileName>Modules\AudioboxConsole\ConsoleCommand\ConsoleCommandWords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.AudioboxConsole.Parser">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAA=</HashCode>
+      <FileName>Modules\AudioboxConsole\ConsoleCommand\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.AudioboxConsole.LogConsole">
+    <Position X="41" Y="7" Width="2" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Modules.AudioboxConsole.LogConsole.NewLogConsoleEntryHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\AudioboxConsole\LogConsole.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAACQAIAAAECAAABAAMAQAAAKCAIANAAAA=</HashCode>
+      <FileName>Modules\AudioboxConsole\LogConsole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Command">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEAAAAAAABAAAAASACAIEAAAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.CommandExecutor">
+    <Position X="17.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\CommandExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.CommandInterpreter">
+    <Position X="13.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAgAAgAAAAAAAAIAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\CommandInterpreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.CommandParser">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\CommandParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.ADDVOLUME" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\ADDVOLUME.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.ADDYOUTUBETRACK" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\ADDYOUTUBETRACK.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.DESTROYSESSION" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\DESTROYSESSION.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.GETPLAYLIST" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\GETPLAYLIST.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.GETPLAYLISTUPDATETIME" Collapsed="true">
+    <Position X="4" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\GETPLAYLISTUPDATETIME.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.GETSESSIONID" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\GETSESSIONID.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.GETVOLUME" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\GETVOLUME.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.KEEPALIVE" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\KEEPALIVE.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.LOGOUTUSER" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\LOGOUTUSER.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.REFRESHGID" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\REFRESHGID.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.REGCLIENT" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\REGCLIENT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.REGHOST" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\REGHOST.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.REGUSER" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\REGUSER.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.VOTETRACK" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\VOTETRACK.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.CommandInterface.Commands.YOUTUBESEARCH" Collapsed="true">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAQAAAAAAAAAAAAACAIAAIAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\Commands\YOUTUBESEARCH.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.FileManager">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.FileManager.NewTrackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\FileManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAgAIAAAAAAAAAAAAAAAQAIAAACAQAAAAAAACAAAAA=</HashCode>
+      <FileName>Modules\SessionManagement\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.MediaServer">
+    <Position X="11.25" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.MediaServer.NextTrackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\MediaServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgIQAgACCAAAQAAAACAAEQwEAUABgAYABAEAACIAI=</HashCode>
+      <FileName>Modules\SessionManagement\MediaServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.SessionManager">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.SessionManager.NewSessionHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\SessionManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.SessionManager.NewTrackHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\SessionManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.SessionManager.SessionStatusChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\SessionManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.SessionManager.PlaylistUpdateHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\SessionManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>wwAAAYBAAAIIRFQKACQCCAQIBAARAJBAACAgAgAgcBA=</HashCode>
+      <FileName>Modules\SessionManagement\SessionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.VolumeManager">
+    <Position X="18.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAIA=</HashCode>
+      <FileName>Modules\SessionManagement\VolumeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.Objects.Mp3Track" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\SessionManagement\Objects\Mp3Track.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.Objects.Playlist">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Modules.SessionManagement.Objects.Playlist.PlaylistEmptyHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\SessionManagement\Objects\Playlist.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAABAEAACCAAAAATAAAAAAAAACAAAABAAAEBAQA=</HashCode>
+      <FileName>Modules\SessionManagement\Objects\Playlist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.Objects.Session">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAESACCAgCAJQAAAQCAAABAAAACiCAACIBAEAAEgAAA=</HashCode>
+      <FileName>Modules\SessionManagement\Objects\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.SessionManagement.Objects.Track" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAQCAAIEAAAIAQCAAAAAAAAA=</HashCode>
+      <FileName>Modules\SessionManagement\Objects\Track.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Support.About">
+    <Position X="7" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAQA=</HashCode>
+      <FileName>Modules\Support\About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Support.Settings">
+    <Position X="4.25" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIGgIAAAAAAAQAAEAAAAEAAAAAAAAAQAABAgABAAAA=</HashCode>
+      <FileName>Modules\Support\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.UserManagement.User">
+    <Position X="23.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAABAAAAAAAAAgAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\UserManagement\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.UserManagement.UserManager">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Audiobox_Server.Modules.UserManagement.UserManager.UpdateUserDataHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\UserManagement\UserManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>iAgABAAIAVIAAQMAAABAAEAUASAAAAAAAjAIwAAIAAQ=</HashCode>
+      <FileName>Modules\UserManagement\UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YoutubeDownloader.SearchResult">
+    <Position X="21.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAEAAAgAAACAAAAQAAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeDownloader\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YoutubeDownloader.YoutubeDownload">
+    <Position X="23" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAKAAAACAAEAgAAAAAAAAKIIACEAAQCAAAAAAAAgA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeDownloader\YoutubeDownload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YoutubeDownloader.YoutubeDownloadManager">
+    <Position X="25.25" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQACAAAAAAAAAAAKAAQAAAAAAAAAAgA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeDownloader\YoutubeDownloadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YoutubeDownloader.YoutubeQueue">
+    <Position X="27.75" Y="10" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Audiobox_Server.Modules.Youtube.YoutubeDownloader.YoutubeQueue.QueuedItem" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\Youtube\YoutubeDownloader\YoutubeQueue.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQAAAAAIAQAAAAAAAACAAAAAAAAEAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeDownloader\YoutubeQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YoutubeDownloader.YoutubeSearch">
+    <Position X="29.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAAAAAAAAAAAAEAIAAAAAAAAAACgAAAAAAAAgAAI=</HashCode>
+      <FileName>Modules\Youtube\YoutubeDownloader\YoutubeSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.AacAudioExtractor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAACAAAAAAAAAAAABAIAAgAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\AacAudioExtractor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.AudioDownloader" Collapsed="true">
+    <Position X="27" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQEAAQAAAAAAgAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\AudioDownloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.AudioExtractionException" Collapsed="true">
+    <Position X="30.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\AudioExtractionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.BigEndianBitConverter" Collapsed="true">
+    <Position X="32.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAgAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\BigEndianBitConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.BitHelper" Collapsed="true">
+    <Position X="28.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAgAAAAAEAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\BitHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.Downloader" Collapsed="true">
+    <Position X="25.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAKAEAAAAAAAEAgAAAEAAAAAAAg=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\Downloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.DownloadUrlResolver" Collapsed="true">
+    <Position X="28.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACAAAAACIAQAAEAAAAAIABAAAAABACQACAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\DownloadUrlResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.FlvFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAiAABAAgGABAAACAAEAoAEAAAMAQQQAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\FlvFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.HttpHelper" Collapsed="true">
+    <Position X="32.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAAAAgAAAAAAAAAAAACAAAAAAAQAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\HttpHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.Mp3AudioExtractor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQQAACIAgQAACIAIAAgAAAAgAACAAEoZIAAIQAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\Mp3AudioExtractor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.ProgressEventArgs" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\ProgressEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.VideoDownloader" Collapsed="true">
+    <Position X="27" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\VideoDownloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.VideoInfo" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAEABAAAAAAAEAEAEQAAAYAAAAgAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\VideoInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.VideoNotAvailableException" Collapsed="true">
+    <Position X="28.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\VideoNotAvailableException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.YoutubeParseException" Collapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\YoutubeParseException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Program">
+    <Position X="38.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Audiobox_Server.Properties.Resources">
+    <Position X="42.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEIAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Audiobox_Server.Modules.CommandInterface.ICommand">
+    <Position X="15.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAABAAAAAA=</HashCode>
+      <FileName>Modules\CommandInterface\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.IAudioExtractor" Collapsed="true">
+    <Position X="32.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\IAudioExtractor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Audiobox_Server.Modules.UserManagement.UserAuthorization">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAIAAAAEAAgA=</HashCode>
+      <FileName>Modules\UserManagement\UserAuthorization.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.AudioType" Collapsed="true">
+    <Position X="32.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAhA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\AudioType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Audiobox_Server.Modules.Youtube.YouTubeHelperClasses.VideoType" Collapsed="true">
+    <Position X="30.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAAAIAhA=</HashCode>
+      <FileName>Modules\Youtube\YoutubeHelperClasses\VideoType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

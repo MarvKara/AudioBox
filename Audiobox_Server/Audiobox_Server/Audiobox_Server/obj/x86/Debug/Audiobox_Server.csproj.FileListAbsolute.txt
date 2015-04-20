@@ -1,0 +1,16 @@
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Debug\Audiobox_Server.exe
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Debug\Audiobox_Server.pdb
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.Properties.Resources.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.csproj.GenerateResource.Cache
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.exe
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.pdb
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Debug\Audiobox_Server.exe.config
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Debug\Google.GData.Client.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Debug\Google.GData.Extensions.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Debug\Google.GData.YouTube.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.Forms.AboutForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.Forms.MainForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.Forms.PlaylistDetailForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.Forms.SettingsForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.Forms.YoutubeDownloadManagerForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Debug\Audiobox_Server.csprojResolveAssemblyReference.cache

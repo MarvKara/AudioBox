@@ -1,0 +1,4 @@
+Source: System.Windows.Forms
+Message:
+Auf das verworfene Objekt kann nicht zugegriffen werden.
+Objektname: "MainForm".

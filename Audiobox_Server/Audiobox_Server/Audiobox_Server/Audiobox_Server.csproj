@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F666BDA-C85F-4BCD-9C67-67B180204543}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Audiobox_Server</RootNamespace>
+    <AssemblyName>Audiobox_Server</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>ftp://outcast-prophets.no-ip.org/audiobox/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.2.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Audiobox_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F43D09B06C3699274173721893B18A24050663E8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Audiobox_Server_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.GData.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.YouTube, Version=2.2.0.0, Culture=neutral, PublicKeyToken=af04a32718ae8833, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\Google.GData.YouTube.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\PlaylistDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlaylistDetailForm.Designer.cs">
+      <DependentUpon>PlaylistDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\YoutubeDownloadManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoutubeDownloadManagerForm.Designer.cs">
+      <DependentUpon>YoutubeDownloadManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CommandInterface\Commands\ADDVOLUME.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\DESTROYSESSION.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\GETSESSIONID.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\GETVOLUME.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\KEEPALIVE.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\LOGOUTUSER.cs" />
+    <Compile Include="Modules\CommandInterface\Command.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\ADDYOUTUBETRACK.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\GETPLAYLIST.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\GETPLAYLISTUPDATETIME.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\REFRESHGID.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\REGCLIENT.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\REGHOST.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\VOTETRACK.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\YOUTUBESEARCH.cs" />
+    <Compile Include="Modules\CommandInterface\CommandParser.cs" />
+    <Compile Include="Modules\Youtube\YoutubeDownloader\YoutubeQueue.cs" />
+    <Compile Include="Modules\AudioboxConsole\ConsoleCommand\ConsoleCommand.cs" />
+    <Compile Include="Modules\AudioboxConsole\ConsoleCommand\ConsoleCommandWords.cs" />
+    <Compile Include="Modules\CommandInterface\CommandInterpreter.cs" />
+    <Compile Include="Modules\CommandInterface\ICommand.cs" />
+    <Compile Include="Modules\CommandInterface\CommandExecutor.cs" />
+    <Compile Include="Modules\CommandInterface\Commands\REGUSER.cs" />
+    <Compile Include="Modules\AudioboxConsole\LogConsole.cs" />
+    <Compile Include="Modules\AudioboxConsole\ConsoleCommand\ConsoleCommandExecutor.cs" />
+    <Compile Include="Modules\AudioboxConsole\ConsoleCommand\Parser.cs" />
+    <Compile Include="Modules\UserManagement\UserAuthorization.cs" />
+    <Compile Include="Modules\SessionManagement\VolumeManager.cs" />
+    <Compile Include="Modules\Youtube\YoutubeDownloader\YoutubeDownload.cs" />
+    <Compile Include="Modules\Youtube\YoutubeDownloader\YoutubeDownloadManager.cs" />
+    <Compile Include="Modules\SessionManagement\FileManager.cs" />
+    <Compile Include="Forms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Actions.cs" />
+    <Compile Include="General\ErrorHandler.cs" />
+    <Compile Include="General\GeneralObjects.cs" />
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SessionManagement\MediaServer.cs" />
+    <Compile Include="Modules\SessionManagement\Objects\Mp3Track.cs" />
+    <Compile Include="Modules\Youtube\YoutubeDownloader\SearchResult.cs" />
+    <Compile Include="Modules\SessionManagement\Objects\Track.cs" />
+    <Compile Include="Modules\Youtube\YoutubeDownloader\YoutubeSearch.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modules\SessionManagement\Objects\Playlist.cs" />
+    <Compile Include="Modules\SessionManagement\Objects\Session.cs" />
+    <Compile Include="Modules\SessionManagement\SessionManager.cs" />
+    <Compile Include="Modules\UserManagement\User.cs" />
+    <Compile Include="Modules\Support\About.cs" />
+    <Compile Include="Modules\Support\Settings.cs" />
+    <Compile Include="Modules\UserManagement\UserManager.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\AacAudioExtractor.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\AudioDownloader.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\AudioExtractionException.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\AudioType.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\BigEndianBitConverter.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\BitHelper.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\Downloader.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\DownloadUrlResolver.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\FlvFile.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\HttpHelper.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\IAudioExtractor.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\Mp3AudioExtractor.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\ProgressEventArgs.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\VideoDownloader.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\VideoInfo.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\VideoNotAvailableException.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\VideoType.cs" />
+    <Compile Include="Modules\Youtube\YoutubeHelperClasses\YoutubeParseException.cs" />
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlaylistDetailForm.resx">
+      <DependentUpon>PlaylistDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoutubeDownloadManagerForm.resx">
+      <DependentUpon>YoutubeDownloadManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audiobox_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Libraries\Google.GData.Client.dll" />
+    <Content Include="Libraries\Google.GData.Extensions.dll" />
+    <Content Include="Libraries\Google.GData.YouTube.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

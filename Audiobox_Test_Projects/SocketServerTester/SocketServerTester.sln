@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerTester", "SocketServerTester\SocketServerTester.csproj", "{9BB2E637-54F0-4F5C-A033-B95E3E59505F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClientTester", "SocketClientTester\SocketClientTester.csproj", "{7C505003-F705-4FC1-B371-13261446A325}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://outcast-prophets.no-ip.org:8080/tfs/project%20audiobox
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SocketServerTester\\SocketServerTester.csproj
+		SccProjectName1 = SocketServerTester
+		SccLocalPath1 = SocketServerTester
+		SccProjectUniqueName2 = SocketClientTester\\SocketClientTester.csproj
+		SccProjectName2 = SocketClientTester
+		SccLocalPath2 = SocketClientTester
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB2E637-54F0-4F5C-A033-B95E3E59505F}.Debug|x86.ActiveCfg = Debug|x86
+		{9BB2E637-54F0-4F5C-A033-B95E3E59505F}.Debug|x86.Build.0 = Debug|x86
+		{9BB2E637-54F0-4F5C-A033-B95E3E59505F}.Release|x86.ActiveCfg = Release|x86
+		{9BB2E637-54F0-4F5C-A033-B95E3E59505F}.Release|x86.Build.0 = Release|x86
+		{7C505003-F705-4FC1-B371-13261446A325}.Debug|x86.ActiveCfg = Debug|x86
+		{7C505003-F705-4FC1-B371-13261446A325}.Debug|x86.Build.0 = Debug|x86
+		{7C505003-F705-4FC1-B371-13261446A325}.Release|x86.ActiveCfg = Release|x86
+		{7C505003-F705-4FC1-B371-13261446A325}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

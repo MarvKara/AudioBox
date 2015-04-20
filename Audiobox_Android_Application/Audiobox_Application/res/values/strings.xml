@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androidServerVersie2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_message_fragment">MessageFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_send_message">SendMessage</string>
+    <string name="title_activity_file_fragment">FileFragment</string>
+    <string name="title_activity_log_fragment">LogFragment</string>
+    <string name="title_activity_party_login">PartyLogin</string>
+    <string name="title_activity_host_screen">HostScreen</string>
+    <string name="title_activity_client_screen">ClientScreen</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>

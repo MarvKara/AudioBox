@@ -1,0 +1,16 @@
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Audiobox_Server.exe
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Audiobox_Server.pdb
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.MainForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.Properties.Resources.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.csproj.GenerateResource.Cache
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.exe
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.pdb
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.SettingsForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Audiobox_Server.exe.config
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Google.GData.Client.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Google.GData.Extensions.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Google.GData.YouTube.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\obj\x86\Release\Audiobox_Server.AboutForm.resources
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Libraries\Google.GData.Client.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Libraries\Google.GData.Extensions.dll
+F:\_AUDIOBOX_FILES\Audiobox_Server\Audiobox_Server\Audiobox_Server\bin\Release\Libraries\Google.GData.YouTube.dll
